@@ -12,7 +12,6 @@ let divTime = document.getElementById("time");
 divTime.classList.add("center");
 let numbers = [];
 let time = 10;
-let count = 0;
 
 click.addEventListener("click",
 
@@ -41,6 +40,7 @@ click.addEventListener("click",
     let endtime = setInterval(
         function(){
             let numbUser;
+            let count = 0;
             let i = 0
             alert("Bene, ora ti ricordi che numeri erano???....Clicca ok");
             while (i < 5){
