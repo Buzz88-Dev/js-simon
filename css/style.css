@@ -1,0 +1,11 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2, h3, h5, button {
+    margin: 20px 50px;
+}
+
