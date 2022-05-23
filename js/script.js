@@ -27,15 +27,13 @@ click.addEventListener("click",
             if (time === 0){
                 clearInterval(time);
                 divElements.innerHTML = "Tempo scaduto";          
-                divTime.innerHTML = " ";
-    
+                divTime.innerHTML = " ";   
             } else {
                 time--;
                 divTime.innerHTML = "Hai " + time + " secondi di tempo per memorizzarli";
             }
         }
     , 1000)
-
 
     let endtime = setInterval(
         function(){
